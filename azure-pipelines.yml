@@ -25,6 +25,7 @@ steps:
 
   - script: |
       npx playwright test
+      
     displayName: 'Run Playwright Tests'
 
   - task: PublishPipelineArtifact@1
